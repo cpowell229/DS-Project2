@@ -10,7 +10,7 @@ This repository contains the datasets, scripts, and outputs for our second proje
 
 ## Map of Our Documentation
 ### 1. SCRIPTS Folder: Scripts for our analysis
-  * `dataAnalysis.py` - This file utilizes the job_postings_by_sector_US.csv dataset to produce a primary analysis of the posting trends in specific job       sectors over time. The output of this script is seen in sector_summary.png.
+  * `dataAnalysis.py` - This file utilizes the `job_postings_by_sector_US.csv` dataset to produce a primary analysis of the posting trends in specific job       sectors over time. The output of this script is seen in `sector_summary.png`.
 ### 2. DATA Folder: Original datasets from the FRED, which pulls data from the Github repository, “Indeed Job Postings Index” [2,4]
   * `aggregate_job_postings_US.csv` - This dataset contains the data for all job postings on a daily basis, particularly the “indeed_job_postings_index” variable, which is
     calculated in comparison to the starting data collection date (2/01/2020) and is both adjusted and not adjusted for seasons [10].
@@ -19,8 +19,8 @@ This repository contains the datasets, scripts, and outputs for our second proje
   * `state_job_postings_us.csv` - This dataset contains the posting index data for each state on a daily basis [7].
 ### 3. OUTPUTS Folder: Outputs of our analysis
   * `sector_summary.png` - This graph output demonstrates the growth rate of specific job sectors by their posting indexes from February 1, 2020 until
-    about present, utilizing job_postings_by_sector_US.csv dataset, in the DATA folder. The script to produce this graph can be found in
-    dataAnalysis.py, in the SCRIPTS folder.
+    about present, utilizing `job_postings_by_sector_US.csv` dataset, in the DATA folder. The script to produce this graph can be found in
+    `dataAnalysis.py`, in the SCRIPTS folder.
 
 
 ## Instructions for Reproducing Results
