@@ -1,10 +1,6 @@
 ## Input: metro_job_postings_us.csv
 ## Output: top_sector_forecasts.png
-## Function: Reads in data, extracts 2-letter state codes from "metro" 
-##           (splitting multi-state combos like "WV-KY-OH"), then performs 
-##           a SARIMAX forecast for each state individually. Plots the 
-##           top 10 states on a single chart over the next 5 years (60 months),
-##           with bridging lines and R² in the legend.
+
 
 import os
 import numpy as np
