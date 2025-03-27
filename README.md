@@ -19,13 +19,13 @@ This repository contains the datasets, scripts, and outputs for our second proje
                     `job_postings_by_sector_US.csv` 
           * OUTPUTS:`sector_line_6month.png` 
                     `us_map_states.png`
-  * `aggregateForecast.py` - Perfroms linear regression to forecast the average monthly number of Indeed job posts over the next five years.
+  * `aggregateForecast.py` - Performs linear regression to forecast the average monthly number of Indeed job posts over the next five years.
           * INPUT: `aggregate_job_postings_US.csv`
           * OUTPUT:`job_postings_time_series_forecast.png`
-  * `metroForecast.py` - Perfroms linear regression to forecast the average monthly number of Indeed job posts over the next five years.
+  * `metroForecast.py` - Performs linear regression to forecast the average monthly number of Indeed job posts over the next five years.
           * INPUT: `metro_job_postings_us.csv`
           * OUTPUT:`metro_forecasts.png`
-  * `sectorForecast.py` - Perfroms linear regression to forecast the average monthly number of Indeed job posts over the next 5 years.
+  * `sectorForecast.py` - Performs linear regression to forecast the average monthly number of Indeed job posts over the next 5 years.
           * INPUT: `job_postings_by_sector_US.csv`
           * OUTPUT:`top_sector_forecasts.png`
 ### 2. DATA Folder: Original datasets from the FRED, which pulls data from the Github repository, “Indeed Job Postings Index” [2,4]
